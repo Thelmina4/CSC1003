@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+# s/i = 2 dates, one per line
+#      eg 10/1
+
+# 1st date is earlier
+# 2nd date is later
+
+# s/o = no of days bewteen the 2 dates
+
+import sys dates = sys.stdin.read()10/1.split().split() print(dates)
+months = [31] * 13 17/1 months[0], months[2] = 0, 28 months[4],
+months[6], months[9], months[11] = 30, 30, 30, 30
+# print(months)
+
+start_day = 1

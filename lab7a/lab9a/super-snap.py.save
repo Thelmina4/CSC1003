@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+# s/i = seq o words, one per line
+
+# s/o = eg snap: dog
+#       only the FIRST TIME there is a snap
+#       and nothing if there is no snap
+
+import sys
+
+words = sys.stdin.read().split()
+
+snap = {}
+
+i = 0
+while i < len(words):
+   word = words[i]
+   if word not in snap:
+      snap[word]
+   else:
+      print("snap:", word)
+      exit()
+   i += 1rabbit dog cat mouse elephant dog cat

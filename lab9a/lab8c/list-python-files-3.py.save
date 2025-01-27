@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+
+# no input from s/i or command line
+
+# output = all the non empty .py files
+#          that have the she bang in the first line
+#          or that end in .py
+
+# operating system
+import os
+
+files = os.listdir(".")
+
+i = 0
+while i < len(files):
+   if files[i][len(files[i]) - 3:] == ".py":
+      file = files[i]
+      
+   i += 1

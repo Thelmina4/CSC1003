@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+
+# s/i = file names eg file-names.py/filenames.py
+
+# s/o = only the file name,
+# which seems to be the last after /
+
+import sys
+
+line = sys.stdin.readline()
+
+while 0 < len(line): file = line.read().split() print(file[len(file) - 1] +
+   "\ntt-total-hours.py/tt-total-hours.py") line = sys.stdin.readline()
+tt-wednesday.py tt-wednesday.py/tt-wednesday.py markers/use-dictionary.py
+/home/blott/teaching/ca277/markers/use-dictionary.py/dictionary.py
+/home/blott/teaching/ca277/markers/use-dictionary.py/test-2/dictionary.py who-won.py
+bubble-sort.web.ascii web/10-functions-tasks.ascii web/10-more-tasks.ascii
+11-real-io.ascii web/12-real-io-tasks.ascii
+/home/blott/teaching/ca277/web/13-pot-pourri.ascii use-dictionary.py/use-dictionary.py
+markers/user-names.py markers/user-names.py/user-names.py
